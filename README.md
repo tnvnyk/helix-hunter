@@ -26,11 +26,8 @@ This tool allows users to:
 ---
 
 #  Execution
-
-1. Command Line Interface (CLI)
-
+1. Command Line Interface 
 Run from terminal with the following options:
-
 
 Basic usage
 ```Bash
@@ -59,8 +56,6 @@ Launch the UI by simply running:
 ```bash
 python main.py
 ```
-
-
 This opens an interactive browser-based interface to upload FASTA files, enter a pattern, and select the matching algorithm.
 
 
