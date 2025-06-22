@@ -25,9 +25,9 @@ This tool allows users to:
 
 ---
 
-#  Running the Project
+#  Execution
 
- 1. Command Line Interface (CLI)
+1. Command Line Interface (CLI)
 
 Run from terminal with the following options:
 
