@@ -52,9 +52,7 @@ Available algorithms:
 * `rk`
 * `all`
 
----
-
- 2️.  Gradio Web UI
+2️. Gradio Web UI
 
 Launch the UI by simply running:
 
