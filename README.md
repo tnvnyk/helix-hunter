@@ -1,9 +1,8 @@
 # helix-hunter
 
-````markdown
-# 🧬 DNA Pattern Matching and Alignment Tool
+#  DNA Pattern Matching and Alignment Tool
 
-## 🚨 The Challenge & Motivation
+##  The Challenge & Motivation
 
 DNA sequence analysis is foundational to bioinformatics, yet exact pattern matching in massive biological data can be computationally intensive. Researchers often need to identify specific gene sequences within larger genomes to study genetic markers, mutations, or conserved regions.
 
@@ -11,7 +10,7 @@ This project addresses that challenge by combining classic computer science algo
 
 ---
 
-## ⚙️ What This Project Does
+##  What This Project Does
 
 This tool allows users to:
 
@@ -26,7 +25,7 @@ This tool allows users to:
 
 ---
 
-## ▶ Running the Project
+##  Running the Project
 
 ### 1 Command Line Interface (CLI)
 
@@ -41,7 +40,7 @@ python main.py --file test_data/sample.fasta --pattern ATCG --algorithm all --pl
 
 # Enable local alignment (BLAST-inspired)
 python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
-````
+
 
 #Available algorithms:
 
