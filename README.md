@@ -31,16 +31,19 @@ This tool allows users to:
 
 Run from terminal with the following options:
 
-bash
+
 # Basic usage
+```Bash
 python main.py --file <your_fasta_file.fasta> --pattern <ATCG>
-
+```
 # Run all algorithms with plots
+```Bash
 python main.py --file test_data/sample.fasta --pattern ATCG --algorithm all --plot
-
+```
 # Enable local alignment (BLAST-inspired)
+``` Bash
 python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
-
+```
 
 #Available algorithms:
 
@@ -55,13 +58,14 @@ python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
 
 Launch the UI by simply running:
 
-bash
+```bash
 python main.py
+```
 
 
 This opens an interactive browser-based interface to upload FASTA files, enter a pattern, and select the matching algorithm.
 
----
+
 
 
 
