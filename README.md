@@ -14,7 +14,7 @@ This project addresses that challenge by combining classic computer science algo
 
 This tool allows users to:
 
-- Search for a specific DNA pattern in a `.fasta` file using:
+- Search for a specific DNA pattern in a `.fasta` or `.txt` file using:
   -  **Naive Brute Force**
   -  **Knuth-Morris-Pratt (KMP)**
   -  **Rabin-Karp (Rolling Hash)**
@@ -31,7 +31,7 @@ This tool allows users to:
 
 Run from terminal with the following options:
 
-```bash
+bash
 # Basic usage
 python main.py --file <your_fasta_file.fasta> --pattern <ATCG>
 
@@ -55,9 +55,9 @@ python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
 
 Launch the UI by simply running:
 
-```bash
+bash
 python main.py
-```
+
 
 This opens an interactive browser-based interface to upload FASTA files, enter a pattern, and select the matching algorithm.
 
