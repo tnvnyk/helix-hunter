@@ -32,11 +32,11 @@ Run from terminal with the following options:
 
 Basic usage
 ```Bash
-python main.py --file <your_fasta_file.fasta> --pattern <ATCG>
+python main.py --file <your_fasta_file.fasta or txt file> --pattern <ATCG>
 ```
 Run all algorithms with plots
 ```Bash
-python main.py --file test_data/sample.fasta --pattern ATCG --algorithm all --plot
+python main.py --file test.txt/sample.fasta --pattern ATCG --algorithm all --plot
 ```
 Enable local alignment (BLAST-inspired)
 ``` Bash
