@@ -26,7 +26,8 @@ This tool allows users to:
 ---
 
 #  Execution
-1. Command Line Interface 
+1. Command Line Interface
+   
 Run from terminal with the following options:
 
 Basic usage
@@ -49,7 +50,8 @@ Available algorithms:
 * `rk`
 * `all`
 
-2️. Gradio Web UI
+2. Gradio Web 
+
 
 Launch the UI by simply running:
 
