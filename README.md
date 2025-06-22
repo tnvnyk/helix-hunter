@@ -10,7 +10,7 @@ This project addresses that challenge by combining classic computer science algo
 
 ---
 
-##  What This Project Does
+#  Overview
 
 This tool allows users to:
 
@@ -25,27 +25,27 @@ This tool allows users to:
 
 ---
 
-##  Running the Project
+#  Running the Project
 
-### 1 Command Line Interface (CLI)
+ 1. Command Line Interface (CLI)
 
 Run from terminal with the following options:
 
 
-# Basic usage
+Basic usage
 ```Bash
 python main.py --file <your_fasta_file.fasta> --pattern <ATCG>
 ```
-# Run all algorithms with plots
+Run all algorithms with plots
 ```Bash
 python main.py --file test_data/sample.fasta --pattern ATCG --algorithm all --plot
 ```
-# Enable local alignment (BLAST-inspired)
+Enable local alignment (BLAST-inspired)
 ``` Bash
 python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
 ```
 
-#Available algorithms:
+Available algorithms:
 
 * `naive`
 * `kmp`
@@ -54,7 +54,7 @@ python main.py --file test_data/sample.fasta --pattern ATCG --extend --window 8
 
 ---
 
-### 2️ Gradio Web UI
+ 2️.  Gradio Web UI
 
 Launch the UI by simply running:
 
