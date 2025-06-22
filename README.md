@@ -32,7 +32,7 @@ Run from terminal with the following options:
 
 Basic usage
 ```Bash
-python main.py --file <your_fasta_file.fasta or txt file> --pattern <ATCG>
+python main.py --file <your_fasta_file.fasta or txt file> --pattern <ATCG> --algorithm <kmp>
 ```
 Run all algorithms with plots
 ```Bash
